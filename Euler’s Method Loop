@@ -1,0 +1,12 @@
+double V = -65.0; // initial membrane potential
+double m, h, n;   // initialize gating variables using steady state values
+
+for (double t = 0; t < T_MAX; t += dt) {
+    // Compute alpha/beta for m, h, n
+    // Update m, h, n with Euler
+    // Compute I_Na, I_K, I_L
+    // Update V with Euler
+    // Optionally apply I_ext (e.g., current injection)
+
+    // Save V to file for plotting
+}
