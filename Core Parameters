@@ -1,0 +1,8 @@
+// Constants
+const double C_m = 1.0;      // membrane capacitance, uF/cm^2
+const double g_Na = 120.0;   // max sodium conductance, mS/cm^2
+const double g_K  = 36.0;    // max potassium conductance, mS/cm^2
+const double g_L  = 0.3;     // leak conductance, mS/cm^2
+const double E_Na = 50.0;    // sodium reversal potential, mV
+const double E_K  = -77.0;   // potassium reversal potential, mV
+const double E_L  = -54.387; // leak reversal potential, mV
